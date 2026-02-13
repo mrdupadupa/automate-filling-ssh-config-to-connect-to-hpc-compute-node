@@ -3,7 +3,7 @@
 
 A quick automation tool to seamlessly connect to dynamically allocated Slurm compute nodes on the HPC cluster.
 
-As the example used Capella cluster of TU Dreden HPC
+As the example used Capella cluster of TU Dresden HPC
 
 Since compute node hostnames change with every job allocation, these scripts fetch your currently running node and automatically inject it into your local `~/.ssh/config` file.
 
